@@ -7,11 +7,20 @@ public class EolympApp2 {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
+        int c = scan.nextInt();
+        int d = scan.nextInt();
 
-        if (a > b) {
-            System.out.print(b + " " + a);
+        if (a >= b && a >= c && a >= d) {
+            System.out.print(a);
+
+        } else if (b > c && b > d && b > a) {
+            System.out.println(b);
+
+        } else if (c >= d && c > b && c > a) {
+            System.out.println(c);
+
         } else {
-            System.out.print(a + " " + b);
+            System.out.println(d);
         }
 
 
