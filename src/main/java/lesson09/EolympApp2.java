@@ -6,9 +6,10 @@ public class EolympApp2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
-        int b = a / 10;
+
+        int b = a / 1000;
         int c = a % 10;
-        System.out.println(b + " " + c);
+        System.out.println(b + c);
 
     }
 }
