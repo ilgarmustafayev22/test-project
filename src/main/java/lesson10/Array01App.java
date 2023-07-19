@@ -30,7 +30,7 @@ public class Array01App {
         }
     }
 
-    public static void main(String[] args) {
+    public static void mainV3(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] nums = new int[5];
         for (int i = 0; i < nums.length; i++) {
@@ -54,5 +54,11 @@ public class Array01App {
             }
 
         }
+    }
+
+    public static void main(String[] args) {
+        double random = Math.random();
+        System.out.println(random);
+        System.out.println((int)random);
     }
 }

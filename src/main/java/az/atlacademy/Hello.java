@@ -4,7 +4,7 @@ import java.io.PrintStream;
 
 public class Hello {
     public static void main(String[] args) {
-        /*
+
 
         System.out.print("Hello, World");
         System.out.println("Hello, World");
@@ -12,7 +12,7 @@ public class Hello {
         System.out.printf("Hello, %s/n", "World");
         System.out.printf("Hello, World:%.2f", 50.04444);
 
-         */
+
         int a =4;
         System.out.println(a);
         System.out.println(a);

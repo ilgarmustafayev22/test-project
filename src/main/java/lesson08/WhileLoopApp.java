@@ -9,7 +9,7 @@ public class WhileLoopApp {
         int num = scan.nextInt();
 
         //2. Process
-        int sum = 0;
+       /* int sum = 0;
         int prod = 1;
         int count = 0;
         while (num > 0) {
@@ -24,5 +24,19 @@ public class WhileLoopApp {
         System.out.printf("Sum of digits is: %d\n", sum);
         System.out.printf("Prod of digits is: %d\n", prod);
         System.out.printf("Count of digits is: %d\n", count);
+
+        */
+
+
+        while(true){
+            if(num<0){
+                System.out.println(num);
+            }else{
+                System.out.println(num);
+                System.out.println(num%10);
+                num/=10;
+            }
+        }
+
     }
 }
